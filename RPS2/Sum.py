@@ -9,15 +9,25 @@ def SumN(n: int) -> int:
             i = range(n)
             for b in i:
                 x += b
+
     elif n < 0:
-            n -= 1
-            i = range(n)
+            i = range(n,0)
             for b in i:
                 x += b
+    else:
+        print("I AM LOSING MY FUCKING MIND")
+
     return x
 
-test = SumN(-6)
+Test1 = SumN(0)
+Test2 = SumN(5)
+Test3 = SumN(10)
+Test4 = SumN(-5)
 
-print(test)
+
+print(Test1)
+print(Test2)
+print(Test3)
+print(Test4)
 
 
