@@ -14,9 +14,6 @@ def SumN(n: int) -> int:
             i = range(n,0)
             for b in i:
                 x += b
-    else:
-        print("I AM LOSING MY FUCKING MIND")
-
     return x
 
 Test1 = SumN(0)
